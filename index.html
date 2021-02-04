@@ -1,0 +1,59 @@
+<html>
+<head>
+    <title>Photo Gallery</title>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Photo Gallery</h1>
+    <img src="marvel-avengers-endgame-e1556039297104.jpg" id="b">
+    <br><br><br>
+    <h3>Grid Gallary</h3>
+    <div><img class="a" src="captain_america.jpg"><img class="a" src="hulk.jpg"><img class="a" src="capt_marvel.jpg"><img class="a" src="iron_man.jpg"></div>
+    <br>
+    <div><img class="a" src="thanos.jpg"><img class="a" src="gamora.jpg"><img class="a" src="black_panther.jpg"><img class="a" src="thor.jpg"></div>
+    <br><br><br>
+    <h2>Slinding Gallery</h2>
+
+<article id="slider">
+    <input type="radio" name="slider" id="slide1" checked />
+    <input type="radio" name="slider" id="slide2" />
+    <input type="radio" name="slider" id="slide3" />
+    <input type="radio" name="slider" id="slide4" />
+    <input type="radio" name="slider" id="slide5" />	
+    <div id="slides">
+        <div id="overflow">
+            <div class="inner">
+                <article>
+                    <img src="black_panther.jpg"  height="200px"/>
+                </article>
+                <article>
+                    <img src="capt_marvel.jpg" height="200px"/>
+                </article>
+                <article>
+                    <img src="captain_america.jpg" height="200px"/>
+                </article>
+				<article>
+                    <img src="gamora.jpg" height="200px"/>
+                </article>
+				<article>
+                    <img src="hulk.jpg" height="200px"/>
+                </article>				                             
+            </div>
+        </div>
+    </div>
+    
+    <div id="active">
+        <label for="slide1"></label>
+        <label for="slide2"></label>
+        <label for="slide3"></label>
+		<label for="slide4"></label>
+		<label for="slide5"></label>
+		
+        
+    </div>
+</article>	
+	
+</body>
+</html>
